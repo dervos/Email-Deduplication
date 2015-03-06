@@ -6,6 +6,11 @@ from os import listdir
 from os.path import isfile, join
 
 path = 'testdata/'
+path = 'testdata/'
+path = 'testdata/'
+path = 'testdata/'
+path = 'testdata/'
+path = 'testdata/'
 filelist = {}
 
 for f in listdir(path):
