@@ -8,7 +8,7 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 
-path = '/home/dervos/code/Uforia/TESTDATA/'
+path = 'testdata/'
 filelist = {}
 DECLUDED_HEADERS = {"X-Folder", "Message-ID"}
 
