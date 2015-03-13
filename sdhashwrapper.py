@@ -18,20 +18,18 @@ for f in listdir(path):
             temp_email = ""
             email_file = open(join(path, f))
             msg = pyzmail.PyzMessage.factory(email_file)
+            email_file.close()
             header1 = msg.get_decoded_header("Message-ID", None)
             header2 = msg.get_decoded_header("X-Folder", None)
 
             emaildict = dict(msg)
 
-            for k,line in emaildict:
-                if "X-Folder" in line:
-                    emaildict.pop(k)
-                     
 
-            print("original:")
-            #print(msg)
-            #print(header1)
-            #print(header2)
+            email_file = open(join(path, f))
+            for line in email_file.readlines():
+                if "X-Folder" in line:
+                    print("test")
+
     #        digest = md5.new().digest()
     #        if digest not in filelist.values():
     #            filelist[f] = digest
