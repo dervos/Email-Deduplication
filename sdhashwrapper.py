@@ -2,7 +2,6 @@
 
 import md5
 import sys
-import pyzmail
 import traceback
 
 from os import listdir
