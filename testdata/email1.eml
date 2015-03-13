@@ -1,0 +1,395 @@
+Delivered-To: reintjehard@gmail.com
+Received: by 10.114.174.195 with SMTP id bu3csp1191702ldc;
+        Wed, 4 Mar 2015 08:05:25 -0800 (PST)
+X-Received: by 10.60.115.99 with SMTP id jn3mr3591867oeb.68.1425485124921;
+        Wed, 04 Mar 2015 08:05:24 -0800 (PST)
+Return-Path: <bounces+1071100-205c-reintjehard=gmail.com@email.pd25.com>
+Received: from o702.email.pd25.com (o702.email.pd25.com. [167.89.4.18])
+        by mx.google.com with ESMTPS id c20si15550092igv.0.2015.03.04.08.05.23
+        for <reintjehard@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Mar 2015 08:05:24 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+1071100-205c-reintjehard=gmail.com@email.pd25.com designates 167.89.4.18 as permitted sender) client-ip=167.89.4.18;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounces+1071100-205c-reintjehard=gmail.com@email.pd25.com designates 167.89.4.18 as permitted sender) smtp.mail=bounces+1071100-205c-reintjehard=gmail.com@email.pd25.com;
+       dkim=pass header.i=@heroku.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=heroku.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=heroku.com; 
+	h=subject:from:to:mime-version:content-type; s=smtpapi; 
+	bh=8K+xYaFVvdYILEsoMfgdlMMsmM4=; b=uiMgnkzsV1cLz5LTZm/chvZUQuQT6
+	SimFc3O7DOiNp9o2S7hosZF8Pw+Bvu+j0C/n7VUK5euS69CDLRymXyDBjPQPkjWA
+	dKt6cpYjhwWdd1/uaSQz6duc2Mna5Oq3gA06eAuXw3RJZX1ePuwqvr/kcp+aJaON
+	NGfIBcXacN0fdQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=heroku.com; 
+	h=subject:from:to:mime-version:content-type; q=dns; s=smtpapi; b
+	=xYCd2RDisZ3NHuQrpTvWTk1SejeYB5RnFJ8KJd7iVeSuklsARRQuus24JO97v4k
+	PeKypCzjWHtztnij3tbdOKPWdaLNk3oIf5mU+21uBJr2qP7E4jnzGjH4EswxJ9Sl
+	hAhkpgEbvbyJm/SGxbZydduPA8mZoy4mj50v2Hf7GkH8=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=subject:from:to:mime-version:content-type:x-feedback-id; 
+	s=smtpapi; bh=8K+xYaFVvdYILEsoMfgdlMMsmM4=; b=I99anIkb+B90gT1j+N
+	CZ5KC/NW+H7sO1Czs1M1DkFxn/uuRqJNfnam9d8vV9N31ca9+HmtkD2gnXhlQlu6
+	amQzTyHsID4+yhPCsWvPzkRmggUCVg76cz9mEBlTGDkveYQ7ufjIc2dYFg2Glu7y
+	CfvnQYeO2bXWxJuK/JuuGVJB4=
+Received: by filter-157.sjc1.sendgrid.net with SMTP id filter-157.11737.54F72D402
+        2015-03-04 16:05:20.105755733 +0000 UTC
+Received: from [127.0.0.1] (localhost [75.126.125.138])
+	by ismtpd-067 (SG) with ESMTP id 14be588c0ac.7f54.26661d
+	for <reintjehard@gmail.com>; Wed, 04 Mar 2015 16:05:19 +0000 (UTC)
+Message-ID: <3b7a3818af460e78c4d8842630c01cde@swift.generated>
+Date: Wed, 04 Mar 2015 11:05:19 -0500
+Subject: Subject: Action Required: Bamboo Stack Sunset
+From: Heroku Support <support@heroku.com>
+To: reintjehard@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1425485119_491628bb7bd582f4a185778bd55e5def_=_"
+X-SG-EID: mCjvGjq4Cbsy6rap6j3MN1CKzxvZhEUnxPojM3fSzRYEE5Qeq0rHc96xvdzcXsbY2FGUK9Wlw5xi+f
+ upRFBTid2c+x919ACnCN0mPJtEJoBmXoY+DKcNOWJ/tk30l6BKS8/c0Gk4+zsbUqyL18+GdnyHFi97
+ 2MdjMFCaxMXt0Io=
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/VPkh9TeoRxZ1FPmB7uQSXz6xJPADHzDMSjpj
+ +FMsTfvxaMMCR1nN3fLe/GSUyzU76iHOkxpKDOrZ9Sab6cpHte
+X-Feedback-ID: 1071100:YQUBfcwEm+K47NMWE0DGdQmiRNyLOl7rHuW388f6r5E=:YQUBfcwEm+K47NMWE0DGdQmiRNyLOl7rHuW388f6r5E=:SG
+
+--_=_swift_v4_1425485119_491628bb7bd582f4a185778bd55e5def_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On March 16th 2015, in approximately two weeks, we will be shutting off
+git pushes to Bamboo applications. About three months after that, on June
+16th 2015, we will fully shut down the Bamboo stack. Bamboo went live
+almost 5 years ago, and the time has come for us to retire it.
+
+Note that neither HTTPS Git, Build API nor the release API is enabled for
+Bamboo apps. That means that on March 16th, you will no longer be able to
+push changes to Bamboo apps.
+
+These apps currently use the Bamboo stack and must be migrated to
+Cedar-14:
+
+evening-robot-154   
+
+To start migrating apps to the current Cedar-14 stack right now, check
+out the Cedar migration guide on Dev Center. If you are no longer using
+an app and don=E2=80=99t want to upgrade it, you can simply archive the sou=
+rce
+code of the app and then destroy it:
+
+$ heroku git:clone --ssh-git -a my-app
+$ heroku apps:destroy -a my-app
+
+Several components of the Bamboo stack are past their end-of-life. This
+includes Debian Lenny, the operating system version used and the 1.8.7
+REE and the 1.9.2 MRI Ruby VMs available on Bamboo. Since these
+components are no longer receiving security updates, Bamboo is unsuitable
+for production apps. We recommend migrating important apps to Cedar-14
+immediately.
+
+If you have questions, feel free to open a topic in the Bamboo section of
+the Heroku forums. We=E2=80=99re looking forward to helping you migrate your
+apps to Cedar-14, where they will receive the benefit of modern, fast,
+and fully patched Ruby versions.
+
+
+Happy coding,
+
+Heroku
+
+
+--_=_swift_v4_1425485119_491628bb7bd582f4a185778bd55e5def_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!-- Inliner Build Version 4380b7741bb759d6cb997545f3add21ad48f010b -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml">
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+<!-- Facebook sharing information tags -->
+    <meta property=3D"og:title" content=3D"Subject: Action Required: Bamboo=
+ Stack Sunset" />
+    <title>Subject: Action Required: Bamboo Stack Sunset</title>
+  </head>
+  <body style=3D"width: 100% !important; min-width: 100%; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; color: #222222; font-family: 'He=
+lvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-=
+height: 19px; font-size: 14px; margin: 0; padding: 0;">
+<table class=3D"body" style=3D"border-spacing: 0; border-collapse: collapse=
+; vertical-align: top; text-align: left; height: 100%; width: 100%; color: =
+#222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal=
+; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"><tbody><tr st=
+yle=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"left"><=
+td class=3D"center" style=3D"word-break: break-word; -webkit-hyphens: auto;=
+ -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; v=
+ertical-align: top; text-align: center; color: #222222; font-family: 'Helve=
+tica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-si=
+ze: 14px; margin: 0; padding: 0;" align=3D"center" valign=3D"top">
+        <center style=3D"width: 100%; min-width: 580px;">
+
+          <table class=3D"container" style=3D"border-spacing: 0; border-col=
+lapse: collapse; vertical-align: top; text-align: inherit; width: 580px; ma=
+rgin: 20px auto; padding: 0;"><tbody><tr style=3D"vertical-align: top; text=
+-align: left; padding: 0;" align=3D"left"><td style=3D"word-break: break-wo=
+rd; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collap=
+se: collapse !important; vertical-align: top; text-align: left; color: #222=
+222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; li=
+ne-height: 19px; font-size: 14px; margin: 0; padding: 0;" align=3D"left" va=
+lign=3D"top">
+
+              <!-- content start -->
+              <table class=3D"row" style=3D"border-spacing: 0; border-colla=
+pse: collapse; vertical-align: top; text-align: left; width: 100%; position=
+: relative; display: block; padding: 0px;"><tbody><tr style=3D"vertical-ali=
+gn: top; text-align: left; padding: 0;" align=3D"left"><td class=3D"wrapper=
+" id=3D"email-header" style=3D"word-break: break-word; -webkit-hyphens: aut=
+o; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important;=
+ vertical-align: top; text-align: left; position: relative; color: #222222;=
+ font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-h=
+eight: 19px; font-size: 14px; background: #F8F8F8; margin: 0; padding: 0; b=
+order-color: #e0e0e6; border-style: solid; border-width: 1px 1px 0;" align=
+=3D"left" bgcolor=3D"#F8F8F8" valign=3D"top">
+
+                    <table class=3D"twelve columns" style=3D"border-spacing=
+: 0; border-collapse: collapse; vertical-align: top; text-align: left; widt=
+h: 580px; margin: 0 auto; padding: 0;"><tbody><tr style=3D"vertical-align: =
+top; text-align: left; padding: 0;" align=3D"left"><td class=3D"center" sty=
+le=3D"word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hy=
+phens: auto; border-collapse: collapse !important; vertical-align: top; tex=
+t-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-se=
+rif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; pa=
+dding: 0px 0px 10px;" align=3D"center" valign=3D"top">
+                          <img src=3D"http://lp2.heroku.com/l/36622/2014-09=
+-30/2qmszt/36622/84406/logo.png" alt=3D"Heroku" class=3D"center" id=3D"emai=
+l-header-logo" style=3D"outline: none; text-decoration: none; -ms-interpola=
+tion-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both;=
+ display: block; margin: 0 auto; padding: 15px 0 5px;" align=3D"none" heigh=
+t=3D"61" width=3D"50"></td>
+                        <td class=3D"expander" style=3D"word-break: break-w=
+ord; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-colla=
+pse: collapse !important; vertical-align: top; text-align: left; visibility=
+: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sa=
+ns-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: =
+0; padding: 0;" align=3D"left" valign=3D"top"></td>
+                      </tr></tbody></table></td>
+                </tr></tbody></table><table class=3D"row" id=3D"content" st=
+yle=3D"border-spacing: 0; border-collapse: collapse; vertical-align: top; t=
+ext-align: left; width: 100%; position: relative; display: block; padding: =
+0px;"><tbody><tr style=3D"vertical-align: top; text-align: left; padding: 0=
+;" align=3D"left"><td class=3D"wrapper" style=3D"word-break: break-word; -w=
+ebkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: co=
+llapse !important; vertical-align: top; text-align: left; position: relativ=
+e; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weig=
+ht: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0; bord=
+er: 1px solid #ddd;" align=3D"left" valign=3D"top">
+
+                    <table class=3D"twelve columns" style=3D"border-spacing=
+: 0; border-collapse: collapse; vertical-align: top; text-align: left; widt=
+h: 580px; margin: 0 auto; padding: 0;"><tbody><tr style=3D"vertical-align: =
+top; text-align: left; padding: 0;" align=3D"left"><td id=3D"main-content" =
+style=3D"word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto;=
+ hyphens: auto; border-collapse: collapse !important; vertical-align: top; =
+text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-s=
+erif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; p=
+adding: 30px;" align=3D"left" valign=3D"top">
+
+                          <div pardot-region=3D"main-content" class=3D"" pa=
+rdot-data=3D"" style=3D"color: rgb(34, 34, 34);"><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span id=3D"docs-internal=
+-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span style=3D"font-size: 15px;=
+ font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-s=
+pace: pre-wrap; background-color: transparent;">Hello,</span></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">O=
+n March 16th 2015, in approximately two weeks, we will be shutting off git =
+pushes to Bamboo applications. About three months after that, on June 16th =
+2015, we will fully shut down the Bamboo stack. Bamboo went live </span><a =
+href=3D"https://hello.heroku.com/e/36622/es-2010-6-29-default-to-bamboo/39m=
+22d/450423535" style=3D"text-decoration:none;"><span style=3D"font-size: 15=
+px; font-family: Arial; color: rgb(17, 85, 204); text-decoration: underline=
+; vertical-align: baseline; white-space: pre-wrap; background-color: transp=
+arent;">almost 5 years ago</span></a><span style=3D"font-size: 15px; font-f=
+amily: Arial;
+color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; backg=
+round-color: transparent;">, and the time has come for us to retire it.</sp=
+an></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">N=
+ote that neither HTTPS Git, Build API nor the release API is enabled for Ba=
+mboo apps. That means that on March 16th, you will no longer be able to pus=
+h changes to Bamboo apps.</span></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">T=
+hese apps currently use the Bamboo stack and must be migrated to Cedar-14:<=
+/span></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+>evening-robot-154</p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">T=
+o start migrating apps to the current Cedar-14 stack right now, check out t=
+he </span><a href=3D"https://hello.heroku.com/e/36622/articles-cedar-migrat=
+ion/39m22g/450423535" style=3D"text-decoration:none;"><span style=3D"font-s=
+ize: 15px; font-family: Arial; color: rgb(17, 85, 204); text-decoration: un=
+derline; vertical-align: baseline; white-space: pre-wrap; background-color:=
+ transparent;">Cedar migration guide on Dev Center</span></a><span style=3D=
+"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: =
+baseline; white-space: pre-wrap; background-color: transparent;">. If you a=
+re no longer
+using an app and don=E2=80=99t want to upgrade it, you can simply archive t=
+he source code of the app and then destroy it:</span></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">$=
+ heroku git:clone --ssh-git -a my-app</span></span></p>
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">$=
+ heroku apps:destroy -a my-app</span></span></p>
+&nbsp;
+
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+><span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span=
+ style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertica=
+l-align: baseline; white-space: pre-wrap; background-color: transparent;">S=
+everal components of the Bamboo stack are past their end-of-life. This incl=
+udes Debian Lenny, the operating system version used and the 1.8.7 REE and =
+the 1.9.2 MRI Ruby VMs available on Bamboo. Since these components are no l=
+onger receiving security updates, Bamboo is unsuitable for production apps.=
+ We recommend migrating important apps to Cedar-14 immediately.</span></spa=
+n></p>
+<br>
+<span id=3D"docs-internal-guid-0d3593ea-dd28-aafd-c477-b81aa96d38e9"><span =
+style=3D"font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical=
+-align: baseline; white-space: pre-wrap; background-color: transparent;">If=
+ you have questions, feel free to open a topic in the </span><a href=3D"htt=
+ps://hello.heroku.com/e/36622/category-bamboo/39m22j/450423535" style=3D"te=
+xt-decoration:none;"><span style=3D"font-size: 15px; font-family: Arial; co=
+lor: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline=
+; white-space: pre-wrap; background-color: transparent;">Bamboo section of =
+the Heroku forums</span></a><span style=3D"font-size: 15px; font-family: Ar=
+ial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; =
+background-color: transparent;">. We=E2=80=99re looking forward to helping =
+you </span><a
+href=3D"https://hello.heroku.com/e/36622/articles-cedar-migration/39m22g/45=
+0423535" style=3D"text-decoration:none;"><span style=3D"font-size: 15px; fo=
+nt-family: Arial; color: rgb(17, 85, 204); text-decoration: underline; vert=
+ical-align: baseline; white-space: pre-wrap; background-color: transparent;=
+">migrate</span></a><span style=3D"font-size: 15px; font-family: Arial; col=
+or: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; backgrou=
+nd-color: transparent;"> your apps to Cedar-14, where they will receive the=
+ benefit of modern, fast, and fully patched Ruby versions.</span></span><br>
+<br>
+<br>
+<span class=3D"il" style=3D"color: rgb(0, 0, 0); font-family: Arial; font-s=
+ize: 15px; line-height: 17.25px; white-space: pre-wrap;">Happy</span><span =
+style=3D"color: rgb(0, 0, 0); font-family: Arial; font-size: 15px; line-hei=
+ght: 17.25px; white-space: pre-wrap;"> </span><span class=3D"il" style=3D"c=
+olor: rgb(0, 0, 0); font-family: Arial; font-size: 15px; line-height: 17.25=
+px; white-space: pre-wrap;">coding</span><span style=3D"color: rgb(0, 0, 0)=
+; font-family: Arial; font-size: 15px; line-height: 17.25px; white-space: p=
+re-wrap;">,</span><br>
+<br style=3D"color: rgb(0, 0, 0); font-family: Arial; font-size: 15px; line=
+-height: 17.25px; white-space: pre-wrap;">
+<span style=3D"color: rgb(0, 0, 0); font-family: Arial; font-size: 15px; li=
+ne-height: 17.25px; white-space: pre-wrap;">Heroku</span></div>
+
+                        </td>
+                        <td class=3D"expander" style=3D"word-break: break-w=
+ord; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-colla=
+pse: collapse !important; vertical-align: top; text-align: left; visibility=
+: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sa=
+ns-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: =
+0; padding: 0;" align=3D"left" valign=3D"top"></td>
+                      </tr></tbody></table></td>
+
+                </tr></tbody></table><br><!-- Legal + Unsubscribe --><table=
+ class=3D"row" style=3D"border-spacing: 0; border-collapse: collapse; verti=
+cal-align: top; text-align: left; width: 100%; position: relative; display:=
+ block; padding: 0px;"><tbody><tr style=3D"vertical-align: top; text-align:=
+ left; padding: 0;" align=3D"left"><td class=3D"wrapper" style=3D"word-brea=
+k: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; bo=
+rder-collapse: collapse !important; vertical-align: top; text-align: left; =
+position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans=
+-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0;=
+ padding: 0;" align=3D"left" valign=3D"top">
+
+                    <table class=3D"twelve columns" style=3D"border-spacing=
+: 0; border-collapse: collapse; vertical-align: top; text-align: left; widt=
+h: 580px; margin: 0 auto; padding: 0;"><tbody><tr style=3D"vertical-align: =
+top; text-align: left; padding: 0;" align=3D"left"><td style=3D"text-align:=
+ center; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto;=
+ hyphens: auto; border-collapse: collapse !important; vertical-align: top; =
+color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight:=
+ normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10=
+px;" align=3D"center" valign=3D"top">
+
+                        <div pardot-region=3D"fine-print" id=3D"fine-print"=
+ style=3D"font-size: 11px; line-height: 1.5; color: #aaa;" class=3D"">Herok=
+u, Inc., 650 7th Street, San Francisco, CA 94103<br>
+<a href=3D"https://hello.heroku.com/unsubscribe/u/36622/284a810201665f62760=
+087992cc50e6e/450423535" style=3D"color: #777 !important; text-decoration: =
+underline; font-weight: bold;">Click here</a> to unsubscribe from further e=
+mails.<br>
+Not displaying correctly? <a href=3D"https://hello.heroku.com/webmail/36622=
+/450423535/284a810201665f62760087992cc50e6e" style=3D"color: #777 !importan=
+t; text-decoration: underline; font-weight: bold;">View this email online.<=
+/a><br>
+<br>
+<br>
+&nbsp;</div>
+
+                        </td>
+                        <td class=3D"expander" style=3D"word-break: break-w=
+ord; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-colla=
+pse: collapse !important; vertical-align: top; text-align: left; visibility=
+: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sa=
+ns-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: =
+0; padding: 0;" align=3D"left" valign=3D"top"></td>
+                      </tr></tbody></table></td>
+                </tr></tbody></table><br><br><!-- container end below --></=
+td>
+            </tr></tbody></table></center>
+      </td>
+    </tr></tbody></table>
+<img alt=3D"" src=3D"https://hello.heroku.com/r/36622/1/450423535/open/1" /=
+><style>@media print{ #_t { background-image: url('https://of7uoajj.emltrk.=
+com/of7uoajj?p');}} div.OutlookMessageHeader {background-image:url('https:/=
+/of7uoajj.emltrk.com/of7uoajj?f')} table.moz-email-headers-table {backgroun=
+d-image:url('https://of7uoajj.emltrk.com/of7uoajj?f')} blockquote #_t {back=
+ground-image:url('https://of7uoajj.emltrk.com/of7uoajj?f')} #MailContainerB=
+ody #_t {background-image:url('https://of7uoajj.emltrk.com/of7uoajj?f')}</s=
+tyle><div id=3D"_t"></div>
+<img src=3D"https://of7uoajj.emltrk.com/of7uoajj" width=3D"1" height=3D"1" =
+border=3D"0" /></body>
+</html>
+
+--_=_swift_v4_1425485119_491628bb7bd582f4a185778bd55e5def_=_--
+
