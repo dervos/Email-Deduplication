@@ -1,7 +1,7 @@
 #! /usr/bin/python2
 
-import sys
 import md5
+import sys
 import pyzmail
 import traceback
 
@@ -10,28 +10,26 @@ from os.path import isfile, join
 
 path = '/home/dervos/code/Uforia/TESTDATA/'
 filelist = {}
+DECLUDED_HEADERS = {"X-Folder", "Message-ID"}
 
+def checkHeader(line):
+    for header in DECLUDED_HEADERS:
+        if header in line:
+            return True
 
 for f in listdir(path):
     if isfile(join(path, f)):
         try:
-            temp_email = ""
-            email_file = open(join(path, f))
-            msg = pyzmail.PyzMessage.factory(email_file)
-            email_file.close()
-            header1 = msg.get_decoded_header("Message-ID", None)
-            header2 = msg.get_decoded_header("X-Folder", None)
-
-            emaildict = dict(msg)
-
-
+            emailarray = []
             email_file = open(join(path, f))
             for line in email_file.readlines():
-                if "X-Folder" in line:
-                    print("test")
+                if not checkHeader(line):
+                    emailarray.append(line)
 
-    #        digest = md5.new().digest()
-    #        if digest not in filelist.values():
-    #            filelist[f] = digest
+            digest = md5.new(''.join([str(line) for line in emailarray])).digest()
+            if digest not in filelist.values():
+                filelist[f] = digest
         except:
             traceback.print_exc(file=sys.stderr)
+print filelist
+
