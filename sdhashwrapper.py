@@ -11,6 +11,7 @@ path = 'testdata/'
 filelist = {}
 DECLUDED_HEADERS = {"X-Folder", "Message-ID"}
 
+
 def checkHeader(line):
     for header in DECLUDED_HEADERS:
         if header in line:
@@ -25,10 +26,12 @@ for f in listdir(path):
                 if not checkHeader(line):
                     emailarray.append(line)
 
-            digest = md5.new(''.join([str(line) for line in emailarray])).digest()
+            digest = md5.new(''.join(
+                    [str(line) for line in emailarray]
+                )).digest()
             if digest not in filelist.values():
                 filelist[f] = digest
         except:
             traceback.print_exc(file=sys.stderr)
-print filelist
 
+print(filelist)
